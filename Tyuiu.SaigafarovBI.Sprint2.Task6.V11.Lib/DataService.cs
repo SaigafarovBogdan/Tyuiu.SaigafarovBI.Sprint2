@@ -6,22 +6,29 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task6.V11.Lib
         public string FindDateOfNextDay(int g, int m, int n)
         {
             string result = "";
-            result = GetDay(n) + "." + GetMonth(m) + "." + Convert.ToString(g);
+            string day = GetDay(n);
+            string month = GetMonth(m);
+            if (GetDay(n) == "32")
+            {
+                month = Convert.ToString(m + 1);
+                day = "01";
+            }
+            result = day + "." + month + "." + Convert.ToString(g);
             return result;
         }
         private string GetDay(int n)
         {
-            switch (n)
+            switch (n+1)
             {
-                case 1: return "02";
-                case 2: return "03";
-                case 3: return "04";
-                case 4: return "05";
-                case 5: return "06";
-                case 6: return "07";
-                case 7: return "08";
-                case 8: return "09";
-                case 9: return "10";
+                case 1: return "01";
+                case 2: return "02";
+                case 3: return "03";
+                case 4: return "04";
+                case 5: return "05";
+                case 6: return "06";
+                case 7: return "07";
+                case 8: return "08";
+                case 9: return "09";
                 case 10:
                 case 11:
                 case 12:
@@ -43,7 +50,8 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task6.V11.Lib
                 case 28:
                 case 29:
                 case 30:
-                case 31: return Convert.ToString(n+1);
+                case 31: return Convert.ToString(n);
+                case 32: return "32";
                 default:
                     {
                         throw new ArgumentException($"День должен быть от 1 до 31. Значение {n}");
