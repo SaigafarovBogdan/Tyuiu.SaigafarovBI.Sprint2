@@ -80,47 +80,47 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task6.V11.Lib
             {
                 case 1:
                     {
-                        day = "02";
+                        day = "01";
                         break;
                     }
                 case 2:
                     {
-                        day = "03";
+                        day = "02";
                         break;
                     }
                 case 3:
                     {
-                        day = "04";
+                        day = "03";
                         break;
                     }
                 case 4:
                     {
-                        day = "05";
+                        day = "04";
                         break;
                     }
                 case 5:
                     {
-                        day = "06";
+                        day = "05";
                         break;
                     }
                 case 6:
                     {
-                        day = "07";
+                        day = "06";
                         break;
                     }
                 case 7:
                     {
-                        day = "08";
+                        day = "07";
                         break;
                     }
                 case 8:
                     {
-                        day = "09";
+                        day = "08";
                         break;
                     }
                 case 9:
                     {
-                        day = "10";
+                        day = "9";
                         break;
                     }
                 case 10:
