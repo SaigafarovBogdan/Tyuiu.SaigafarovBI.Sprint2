@@ -8,6 +8,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task5.V9.Test
         public void ValidFindMonthName()
         {
             DataService ds = new DataService();
+
             Assert.ThrowsException<ArgumentException>(() =>
             {
                 ds.FindDateOfNextDay(13,1);

@@ -152,7 +152,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task5.V9.Lib
                     }
                 default:
                     {
-                        throw new ArgumentException($"Месяц должен быть от 1 до 12. Значение {n}");
+                        throw new ArgumentException($"День должен быть от 1 до 31. Значение {m}");
                     }
 
             }
