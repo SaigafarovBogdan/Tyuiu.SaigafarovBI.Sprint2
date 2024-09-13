@@ -25,7 +25,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task2.V7.Lib
                 {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
 
             };
-            if (ris[x-1, y-1] == 1) res = true; 
+            if (ris[y-1, x-1] == 1) res = true; 
             return res;
         }
     }
