@@ -120,7 +120,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task6.V11.Lib
                     }
                 case 9:
                     {
-                        day = "9";
+                        day = "09";
                         break;
                     }
                 case 10:
