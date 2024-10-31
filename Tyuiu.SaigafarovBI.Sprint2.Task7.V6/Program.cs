@@ -30,7 +30,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task7.V6
             {
                 Console.WriteLine("Точка не находится в заштрихованной области");
             }
-            Console.ReadKey();
+			Console.ReadKey();
         }
     }
 }

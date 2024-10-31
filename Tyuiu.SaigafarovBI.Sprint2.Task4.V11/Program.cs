@@ -19,6 +19,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task4.V11
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Значение функции = " + ds.Calculate(x,y));
+
             Console.ReadKey();
         }
     }
