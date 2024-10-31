@@ -5,7 +5,20 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task1.V13
     {
         static void Main(string[] args)
         {
-            DataService ds = new DataService();
+			Console.Title = "Спринт #2 | Выполнил: Сайгафаров Б. И. | ПКТб-24-1";
+			Console.WriteLine("***************************************************************************");
+			Console.WriteLine("* Спринт #2                                                               *");
+			Console.WriteLine("* Тема: Логические операции                                               *");
+			Console.WriteLine("* Задание #1                                                              *");
+			Console.WriteLine("* Вариант #13                                                             *");
+			Console.WriteLine("* Выполнил: Сайгафаров Богдан Ирекович | ПКТб-24-1                        *");
+			Console.WriteLine("***************************************************************************");
+			Console.WriteLine("* УСЛОВИЕ:                                                                *");
+			Console.WriteLine("* Написать программу из операций сравнений и логических операций,         *");
+			Console.WriteLine("* а также арифметических выражений, которая вернет логическую             *");
+			Console.WriteLine("* последовательность (True, True, True, True, True, False)                *");
+			Console.WriteLine("***************************************************************************");
+			DataService ds = new DataService();
             int a = 145;
             int b = 916;
             int c = 164;
