@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using tyuiu.courses.programming.interfaces.Sprint2;
+
 namespace Tyuiu.SaigafarovBI.Sprint2.Task2.V7.Lib
 {
     public class DataService : ISprint2Task2V7
