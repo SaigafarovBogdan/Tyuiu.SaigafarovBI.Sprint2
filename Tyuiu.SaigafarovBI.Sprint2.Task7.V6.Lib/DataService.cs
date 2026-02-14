@@ -11,7 +11,7 @@ namespace Tyuiu.SaigafarovBI.Sprint2.Task7.V6.Lib
                 if ((Math.Pow(x, 2) + Math.Pow(y, 2) <= 1) && ((x > 0) && (x <= 1) && ((y > 0) && (x <= 1)))) return false;
                 else return true;
             }
-            else return false;
+            else return true;
         }
     }
 }
