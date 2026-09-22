@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tyuiu.ProgrammingInterfaces" Version="1.0.0" />
-  </ItemGroup>
+  <Reference Include="tyuiu.courses.programming.interfaces">
+    <HintPath>..\Tyuiu.Courses.Programming.Interfaces.dll</HintPath>
+  </Reference>
+</ItemGroup>
 
 </Project>
